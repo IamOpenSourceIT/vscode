@@ -5,9 +5,12 @@
 		"dbaeumer.vscode-eslint",
 		"editorconfig.editorconfig",
 		"github.vscode-pull-request-github",
+		"miguelsolorio.fluent-icons",
+		"miguelsolorio.symbols",
 		"ms-vscode.vscode-github-issue-notebooks",
 		"ms-vscode.extension-test-runner",
 		"jrieken.vscode-pr-pinger",
+		"rocketseat.theme-omni",
 		"typescriptteam.native-preview",
 		"ms-vscode.ts-customized-language-service"
 	]

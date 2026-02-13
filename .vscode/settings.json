@@ -196,6 +196,9 @@
 	],
 	// --- Workbench ---
 	// "application.experimental.rendererProfiling": true, // https://github.com/microsoft/vscode/issues/265654
+	"workbench.iconTheme": "fluent-icons",
+	"workbench.productIconTheme": "symbols",
+	"workbench.colorTheme": "Omni",
 	"editor.aiStats.enabled": true, // Team selfhosting on ai stats
 	"azureMcp.enabledServices": [
 		"kusto" // Needed for kusto tool in data.prompt.md
