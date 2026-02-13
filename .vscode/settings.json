@@ -1,6 +1,6 @@
 {
 	// --- Chat ---
-	"inlineChat.enableV2": true,
+	"inlineChat.enableV2": false,
 	"inlineChat.affordance": "gutter",
 	"inlineChat.renderMode": "hover",
 	"chat.tools.terminal.autoApprove": {
@@ -9,8 +9,8 @@
 		"scripts/test-integration.bat": true,
 		"scripts/test-integration.sh": true,
 	},
-	"chat.viewSessions.enabled": true,
-	"chat.editing.explainChanges.enabled": true,
+	"chat.viewSessions.enabled": false,
+	"chat.editing.explainChanges.enabled": false,
 	// --- Editor ---
 	"editor.insertSpaces": false,
 	"editor.experimental.asyncTokenization": true,
@@ -195,8 +195,9 @@
 		"sash"
 	],
 	// --- Workbench ---
+	"workbench.startupEditor": "none",
 	// "application.experimental.rendererProfiling": true, // https://github.com/microsoft/vscode/issues/265654
-	"editor.aiStats.enabled": true, // Team selfhosting on ai stats
+	"editor.aiStats.enabled": false, // Disabled in workspace for lower overhead on weaker machines
 	"azureMcp.enabledServices": [
 		"kusto" // Needed for kusto tool in data.prompt.md
 	],
