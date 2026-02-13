@@ -67,6 +67,57 @@ This repository includes a Visual Studio Code Dev Containers / GitHub Codespaces
 
 Docker / the Codespace should have at least **4 Cores and 6 GB of RAM (8 GB recommended)** to run a full build. See the [development container README](.devcontainer/README.md) for more information.
 
+## Quick Start for First-Time Contributors
+
+If you are new to this repository, follow this short checklist to get a working setup quickly.
+
+### Option 1: Run in GitHub Codespaces (easiest)
+
+1. Open this repository on GitHub.
+2. Click **Code** -> **Codespaces** -> **Create codespace on main**.
+3. Wait for the container to finish starting.
+4. In the terminal, run:
+
+```bash
+yarn
+yarn watch
+```
+
+5. Press `F5` to launch an Extension Development Host window with your local build.
+
+### Option 2: Run locally
+
+1. Install prerequisites:
+   - [Node.js](https://nodejs.org/) version from [`.nvmrc`](.nvmrc)
+   - [Yarn](https://yarnpkg.com/)
+   - [Git](https://git-scm.com/)
+2. Clone and open the project:
+
+```bash
+git clone https://github.com/microsoft/vscode.git
+cd vscode
+```
+
+3. Install dependencies and start watch mode:
+
+```bash
+yarn
+yarn watch
+```
+
+4. Press `F5` in VS Code to run from source.
+
+### Optional UI setup (theme + icons)
+
+For a look similar to the suggestion in this PR:
+
+1. Install the recommended workspace extensions when prompted.
+2. Open **Preferences: Color Theme** and select **Omni**.
+3. Open **Preferences: File Icon Theme** and select **Fluent Icons**.
+4. Open **Preferences: Product Icon Theme** and select **Symbols**.
+
+> Tip: workspace extension recommendations are listed in [`.vscode/extensions.json`](.vscode/extensions.json).
+
 ## Code of Conduct
 
 This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
