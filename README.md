@@ -56,59 +56,6 @@ Many of the core components and extensions to VS Code live in their own reposito
 
 VS Code includes a set of built-in extensions located in the [extensions](extensions) folder, including grammars and snippets for many languages. Extensions that provide rich language support (inline suggestions, Go to Definition) for a language have the suffix `language-features`. For example, the `json` extension provides coloring for `JSON` and the `json-language-features` extension provides rich language support for `JSON`.
 
-
-## Quick Start (Beginner-Friendly)
-
-If you want the easiest way to run this project, use one of these paths:
-
-### Option 1: Run in GitHub Codespaces (no local setup)
-
-1. Open the repository on GitHub.
-2. Click **Code** → **Codespaces** → **Create codespace on main**.
-3. Wait for the container to finish setup.
-4. In the terminal, run:
-
-   ```bash
-   yarn
-   yarn watch
-   ```
-
-5. Press `F5` to launch an Extension Development Host.
-
-### Option 2: Run locally (VS Code + Docker Dev Container)
-
-1. Install [VS Code](https://code.visualstudio.com), [Docker](https://www.docker.com/products/docker-desktop), and [Dev Containers extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers).
-2. Run **Dev Containers: Clone Repository in Container Volume...** and select this repository URL.
-3. After the container opens, run:
-
-   ```bash
-   yarn
-   yarn watch
-   ```
-
-4. Press `F5` to start debugging/running VS Code from source.
-
-### Performance Mode (for weaker PCs)
-
-If startup is slow on your machine, prioritize these steps:
-
-1. Prefer **GitHub Codespaces** (cloud CPU/RAM) instead of local builds.
-2. Keep only essential extensions enabled while working in this repo.
-3. Open VS Code with reduced startup load when needed:
-
-   ```bash
-   code . --disable-extensions --skip-welcome
-   ```
-
-4. Install dependencies once and keep a watch task running:
-
-   ```bash
-   yarn
-   yarn watch
-   ```
-
-5. Avoid running full test suites during first startup on weaker hardware.
-
 ## Development Container
 
 This repository includes a Visual Studio Code Dev Containers / GitHub Codespaces development container.
